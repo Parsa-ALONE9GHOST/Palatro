@@ -69,7 +69,7 @@ Game.main_menu = function(change_context)
         G.CARD_W,
         G.CARD_H,
         G.P_CARDS.empty,
-        G.P_CENTERS.j_pal_parsi,
+        G.P_CENTERS.j_pal_green_palm,
         { bypass_discovery_center = true }
     )
 
