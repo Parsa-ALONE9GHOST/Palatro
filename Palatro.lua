@@ -40,6 +40,9 @@ NFS.load(Palatro.path .. 'data/cons/see.lua')()
 NFS.load(Palatro.path .. 'data/Joker/ring_of_door.lua')()
 NFS.load(Palatro.path .. 'data/Joker/jokerkala.lua')()
 NFS.load(Palatro.path .. 'data/Enhance/double.lua')()
+NFS.load(Palatro.path .. 'data/booster/booster.lua')()
+NFS.load(Palatro.path .. 'data/Ranks/M2.lua')()
+NFS.load(Palatro.path .. 'data/Pokerhands/analogy.lua')()
 local old_main_menu = Game.main_menu
 Game.main_menu = function(change_context)
     -- color
