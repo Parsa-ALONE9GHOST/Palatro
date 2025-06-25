@@ -62,7 +62,7 @@ Game.main_menu = function(change_context)
         }
     } })
 
-    -- main menu joker
+    -- main menu joker (from revo's vault)
     local newcard = Card(
         G.title_top.T.x,
         G.title_top.T.y,
