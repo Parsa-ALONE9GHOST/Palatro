@@ -1,0 +1,13 @@
+{
+	"id": "palatro",
+	"name": "Palatro",
+	"display_name": "Palatro",
+	"author": ["Parsa"],
+	"description": "Hi! This mod is ... umm idk whats this mod but enjoy it.😁",
+	"prefix": "pal",
+	"main_file": "Palatro.lua",
+	"priority": -66,
+	"badge_colour": "f7e302",
+	"badge_text_colour": "f4f0fa",
+	"version": "1.0.0",
+}
