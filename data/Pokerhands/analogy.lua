@@ -21,7 +21,7 @@ SMODS.PokerHand {
             "Hand contains a -2 and a 2",
         }
     },
-    visible = true,
+    visible = false,
 evaluate = function(parts, hand)
     local valid_cards = {}
     local has6 = false
@@ -31,7 +31,7 @@ evaluate = function(parts, hand)
         if c.base.id == 2 then
             has6 = true
             table.insert(valid_cards, c)
-        elseif c.base.id == -2 then
+        elseif c.base.id == pal_M2 then
             has7 = true
             table.insert(valid_cards, c)
         end
